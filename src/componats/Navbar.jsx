@@ -8,7 +8,7 @@ function Navbar() {
     }
   return (
     <>
-    <div className="flex justify-around items-center py-2 bg-gray-100 backdrop-blur-3xl bg-opacity-20">
+    <div className="flex justify-around items-center py-2 bg-slate-200 backdrop-blur-3xl bg-opacity-20">
         {/* logo */}
         <div className='font-bold text-3xl'>
             ABHI
