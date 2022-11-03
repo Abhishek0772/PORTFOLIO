@@ -8,9 +8,9 @@ function Navbar() {
     }
   return (
     <>
-    <div className="flex justify-around items-center">
+    <div className="flex justify-around items-center py-2">
         {/* logo */}
-        <div className='font-bold text-2xl'>
+        <div className='font-bold text-3xl'>
             ABHI
         </div>
         <div className='md:visible  '>
