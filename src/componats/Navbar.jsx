@@ -8,7 +8,7 @@ function Navbar() {
     }
   return (
     <>
-    <div className="flex justify-around items-center py-2">
+    <div className="flex justify-around items-center py-2 bg-gray-200 backdrop-blur-3xl bg-opacity-20">
         {/* logo */}
         <div className='font-bold text-3xl'>
             ABHI
@@ -27,8 +27,8 @@ function Navbar() {
          <div className='bg-black h-1 w-6 my-1  rounded-sm'></div>
         </div>
     </div >
-    <div id='menu' className={click?'visible md:hidden':'hidden '}>
-    <ul className='backdrop-blur-3xl bg-slate-600 bg-opacity-10 flex flex-col items-start px-3'>
+    <div id='menu' className={click?'visible md:hidden transition-all delay-100':'hidden'}>
+    <ul className='filter backdrop-blur-3xl bg-slate-200 bg-opacity-10 flex flex-col items-start px-3 fixed w-full gap-2 py-2'>
                 <li>HOME</li>
                 <li>ABOUT</li>
                 <li>CONTACT</li>
