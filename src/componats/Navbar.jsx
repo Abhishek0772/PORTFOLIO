@@ -1,5 +1,6 @@
 import React from 'react'
 import {useState} from 'react'
+import '../App.css'
 function Navbar() {
     const [click , setclick] = useState(false)
     const clicked = ()=>{
@@ -27,8 +28,8 @@ function Navbar() {
          <div className='bg-black h-1 w-6 my-1  rounded-sm'></div>
         </div>
     </div >
-    <div id='menu' className={click?'visible md:hidden transition-all delay-100':'hidden'}>
-    <ul className='filter backdrop-blur-3xl bg-slate-200 bg-opacity-10 flex flex-col items-start px-3 fixed w-full gap-2 py-2 z-20'>
+    <div id='menu'>
+    <ul className={` bg-slate-200 bg-opacity-40 flex flex-col items-start px-3 fixed w-full md:hidden gap-2 py-2 z-20 ${click?'left-100':'-left-full'} `}>
                 <li>HOME</li>
                 <li>ABOUT</li>
                 <li>CONTACT</li>

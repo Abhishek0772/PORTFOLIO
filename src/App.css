@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 
-#menu{
- transition: 2s;
+.slideNav,#menu{
+    transition: 2s;
 }
 *{
     font-family: 'Poppins', sans-serif;
