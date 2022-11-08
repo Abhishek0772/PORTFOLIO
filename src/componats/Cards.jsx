@@ -14,8 +14,7 @@ function Cards() {
           </p>
           <button className='backdrop-blur-3xl shadow-xl shadow-slate-400 bg-red-400 bg-opacity-40 p-1 px-4 rounded-md my-1'>See</button>
         </div>
-
-      </div>
+      </div> 
       <div className='flex justify-start items-center flex-col w-80 md:w-72 h-[480px] shadow-sm shadow-gray-500 bg-slate-300 bg-opacity-40 backdrop-blur-3xl rounded-md'>
         <div className='w-full  flex justify-center items-start'>
           <img className='w-72 h-72 rounded-md' src={Bike} alt="" />
