@@ -9,7 +9,7 @@ function About() {
         
         <div className='w-full bg-slate-200 bg-opacity-20 flex justify-center items-center flex-wrap p-2 shadow-md py-3'>
             <div className='w-[300px] h-[400px] p-5'>
-                <img className='w-full h-full object-cover ' src={abhi} alt="" />
+                <img className='w-full h-full object-cover' src={abhi} alt="" />
             </div>
             <div className='md:w-1/2 px-2 flex justify-start flex-col md:items-start items-center '>
                 <h3 className='text-3xl font-bold my-1'>About Me</h3>
