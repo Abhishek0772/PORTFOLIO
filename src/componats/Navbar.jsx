@@ -29,7 +29,7 @@ function Navbar() {
         </div>
     </div >
     <div id='menu'>
-    <ul className={` bg-slate-200 bg-opacity-40 flex flex-col items-start px-3 fixed w-full md:hidden gap-2 py-2 z-20 ${click?'left-100':'-left-full'} `}>
+    <ul className={` bg-slate-200 bg-opacity-40 flex flex-col items-start px-3 fixed w-full md:hidden gap-2 py-2 z-20 transition duration-1000 ${click?'left-100':'-left-full'} `}>
                 <li>HOME</li>
                 <li>ABOUT</li>
                 <li>CONTACT</li>
