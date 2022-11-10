@@ -1,6 +1,6 @@
 import React from 'react'
 import Blur from './Blur'
-import Cards from './Cards'
+
 function Hero() {
   return (
     <>
