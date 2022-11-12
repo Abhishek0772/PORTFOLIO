@@ -10,7 +10,7 @@ function Navbar() {
   }
   return (
     <>
-      <nav className='fixed top-0 w-full backdrop-blur-lg z-10 mb-5'>
+      <nav className='fixed top-0 w-full z-10 mb-5'>
 
         <div className=" flex justify-around items-center py-2 bg-slate-300 bg-opacity-20">
           {/* logo */}
