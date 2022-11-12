@@ -10,7 +10,7 @@ function About() {
       }, []);
     return (
         <>
-        <div className='relative h-screen flex items-center backdrop-blur-3xl' data-aos='fade' id='about'>
+        <div className='relative h-screen flex items-center ' data-aos='fade' id='about'>
         
         <div className='w-full bg-slate-200 bg-opacity-20 flex justify-center items-center flex-wrap p-2 shadow-md py-3 backdrop-blur-3xl'>
             <div className=' h-[400px] p-5'>

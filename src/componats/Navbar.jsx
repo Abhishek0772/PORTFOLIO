@@ -12,7 +12,7 @@ function Navbar() {
     <>
       <nav className='fixed top-0 w-full z-10 mb-5'>
 
-        <div className=" flex justify-around items-center py-2 bg-slate-300 bg-opacity-20">
+        <div className=" flex justify-around items-center py-2 md:bg-slate-300 bg-opacity-20">
           {/* logo */}
           <div className='font-bold text-3xl'>
             <Link to='home' duration={800} smooth={true} offset={-70} className='cursor-pointer'>
