@@ -12,7 +12,7 @@ function Cards() {
           <p className='text-center px-2 py-2 text-gray-800'>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, totam?
           </p>
-          <button className='backdrop-blur-3xl shadow-xl shadow-slate-400 bg-red-400 bg-opacity-40 p-1 px-4 rounded-md my-1'>See</button>
+          <button className='border-[1px] border-black p-1 px-5 rounded-b-md  my-1  shadow-sm shadow-gray-500'>See</button>
         </div>
       </div> 
      
