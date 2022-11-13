@@ -12,7 +12,7 @@ function Navbar() {
     <>
       <nav className='fixed top-0 w-full z-10 mb-5'>
 
-        <div className=" flex justify-around items-center py-2 md:bg-slate-300 bg-opacity-20">
+        <div className=" flex justify-around items-center py-2 md:bg-slate-300 md:bg-opacity-20">
           {/* logo */}
           <div className='font-bold text-3xl'>
             <Link to='home' duration={800} smooth={true} offset={-70} className='cursor-pointer'>
@@ -23,7 +23,7 @@ function Navbar() {
           <div className='md:visible  '>
             <ul className='hidden md:flex justify-center gap-3'>
               <Link to='home' duration={800} offset={-70} smooth={true} className='cursor-pointer'><li>HOME</li></Link>
-              <Link className='cursor-pointer' to='about' duration={800} smooth={true} offset={-70}><li>ABOUT</li></Link>
+              <Link className='cursor-pointer' to='about' duration={800} smooth={true} ><li>ABOUT</li></Link>
               <Link className='cursor-pointer' to='home' duration={800} smooth={true}><li>CONTACT</li></Link>
               <Link className='cursor-pointer' to='projects'offset={-70} duration={800} smooth={true}><li>PROJECTS</li></Link>
             </ul>

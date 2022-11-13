@@ -12,7 +12,7 @@ function About() {
         <>
         <div className='relative h-screen flex items-center ' data-aos='fade' id='about'>
         
-        <div className='w-full bg-slate-200 bg-opacity-20 flex justify-center items-center flex-wrap p-2 shadow-md py-3 backdrop-blur-3xl'>
+        <div className='w-full bg-slate-200 bg-opacity-20 flex justify-center items-center flex-wrap p-2 py-3 backdrop-blur-3xl'>
             <div className=' h-[400px] p-5'>
                 <img className='w-full h-full object-cover' src={abhi} alt="" />
             </div>
@@ -23,7 +23,7 @@ function About() {
             <button className='bg-gradient-to-br from-teal-500 to-purple-600 p-2 text-white rounded-sm shadow-sm shadow-slate-600 my-3  transition delay-200 ease-linear hover:scale-105 hover:shadow-gradient-to-br hover:from-orange-400 hover:to-red-400 '>Hire Me</button>
             </div>
         </div>
-        <Blur val = {'items-start'}/>
+        <Blur val = {'items-center'}/>
         </div>
         </>
     )
