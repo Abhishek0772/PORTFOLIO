@@ -18,7 +18,7 @@ function Hero() {
 </div>
       </div>
     </section>
-<Blur val='items-start'/>
+<Blur val='items-center'/>
     
     </>
   )

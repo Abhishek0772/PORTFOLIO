@@ -2,22 +2,20 @@ import React from 'react'
 import Bike from '../img/bike.jpg'
 function Cards() {
   return (
-    <div className='flex justify-center items-center gap-3 flex-wrap'>
-      <div className='flex justify-start items-center flex-col w-80 md:w-64 h-[480px] shadow-sm shadow-gray-500 bg-slate-300 bg-opacity-40 backdrop-blur-3xl rounded-md'>
-        <div className='w-full  flex justify-center items-start'>
-          <img className='w-64 h-72 rounded-md' src={Bike} alt="" />
-        </div>
-        <div className='flex flex-col justify-center items-center'>
-          <h1 className='font-bold my-2 text-xl'>BIKE</h1>
-          <p className='text-center px-2 py-2 text-gray-800'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, totam?
-          </p>
-          <button className='border-[1px] border-black p-1 px-5 rounded-b-md  my-1  shadow-sm shadow-gray-500'>See</button>
-        </div>
-      </div> 
-     
+    <div className='w-[250px] h-[380px] flex  flex-col items-center gap-3 backdrop-blur-3xl bg-slate-200 bg-opacity-10 rounded-md pb-3'>
+     <div className='w-full h-3/5'>
+      <img className='w-full h-full rounded-t-md' src={Bike} alt="" />
+     </div>
 
-      </div>
+      <h3>
+        BIKE
+      </h3>
+      <p className='text-center'>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae.
+      </p>
+      <button className='px-2 py-1 rounded-b-md border-[0.8px] border-black backdrop-blur-3xl'>SEE</button>
+     </div>
+
    
   )
 }
