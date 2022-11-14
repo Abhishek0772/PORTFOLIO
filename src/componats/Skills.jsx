@@ -3,10 +3,10 @@ import Blur from './Blur'
 import web1 from '../img/html5.png'
 import web2 from '../img/css.png'
 import web3 from '../img/js.png'
-import web4 from '../img/react.png'
-import web3 from '../img/js.png'
-import web3 from '../img/js.png'
-import web3 from '../img/js.png'
+// import web4 from '../img/react.png'
+// import web5 from '../img/js.png'
+// import web6 from '../img/js.png'
+// import web7 from '../img/js.png'
 function Skills() {
   const data = [
     {
