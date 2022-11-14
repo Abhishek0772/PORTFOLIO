@@ -22,11 +22,11 @@ module.exports = {
           '100%': { transform: 'translate(0px,-150px)' },
         },
         wave3: {
-          '0%': { transform: 'translate(0px,-150px)' },
-          '25%': { transform: 'translate(-50px,0px)' },
-          '50%': { transform: 'translate(0px,-250px)' },
-          '75%': { transform: 'translate(150px,0px)' },
-          '100%': { transform: 'translate(0px,-150px)' },
+          '0%': { transform: 'translate(0px,-80px)' },
+          '25%': { transform: 'translate(-80px,0px)' },
+          '50%': { transform: 'translate(0px,80px)' },
+          '75%': { transform: 'translate(80px,0px)' },
+          '100%': { transform: 'translate(0px,-80px)' },
         },
       },
       animation: {

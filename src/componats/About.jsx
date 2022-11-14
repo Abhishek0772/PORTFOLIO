@@ -10,9 +10,9 @@ function About() {
       }, []);
     return (
         <>
-        <div className='relative h-screen flex items-center ' data-aos='fade' id='about'>
+        <div className='relative h-screen flex items-center justify-center' data-aos='fade' id='about'>
         
-        <div className='w-full bg-slate-200 bg-opacity-20 flex justify-center items-center flex-wrap p-2 py-3 backdrop-blur-3xl'>
+        <div className='w-11/12 rounded-xl bg-slate-200 bg-opacity-20 flex justify-center items-center flex-wrap p-2 py-3 backdrop-blur-3xl'>
             <div className=' h-[400px] p-5'>
                 <img className='w-full h-full object-cover' src={abhi} alt="" />
             </div>
