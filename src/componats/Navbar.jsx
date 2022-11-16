@@ -27,15 +27,16 @@ function Navbar() {
             <div className={`${click ? 'transition duration-800 opacity-0' : 'transition duration-1000 w-4 opacity-100'} bg-black h-1    rounded-sm`}></div>
           </div>
         </div >
-        <div id='menu' className={`${click ? 'navbar':'-left-full'} fixed top-0 backdrop-blur-2xl bg-blue-400 bg-opacity-20 z-10 `}>
-          <ul className={` flex flex-col items-center justify-start px-3 h-screen w-40 gap-5 z-20  py-10 pl-6 relative`}>
+        <div id='menu' className={`${click ? 'navbar':'-left-full'} fixed top-0 backdrop-blur-2xl bg-slate-00 bg-opacity-20 z-10 `}>
+          <ul className={` flex flex-col items-center justify-start h-screen w-40 gap-5 z-20  py-10  relative`}>
             <li >
               <img className='rounded-full w-24 h-24 object-cover' src={abhi} alt="" />
             </li>
-          <Link to='home' duration={800} offset={-70} smooth={true} className='transition duration-150 cursor-pointer hover:scale-110 hover:font-bold  py-2 hover:text-white'><li>HOME</li></Link>
+          <Link to='home' duration={800} offset={-70} smooth={true} className='transition duration-150 cursor-pointer '><li>HOME</li></Link>
               <Link className='cursor-pointer' to='about' duration={800} smooth={true} offset={-70}><li>ABOUT</li></Link>
-              <Link className='cursor-pointer' to='home' duration={800} smooth={true}><li>CONTACT</li></Link>
+              <Link className='cursor-pointer' to='contact' duration={800} smooth={true}><li>CONTACT</li></Link>
               <Link className='cursor-pointer' to='projects'offset={-70} duration={800} smooth={true}><li>PROJECTS</li></Link>
+             
           </ul>
         </div>
       </nav>
