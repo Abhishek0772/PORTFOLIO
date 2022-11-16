@@ -10,3 +10,7 @@
     font-family: 'Poppins', sans-serif;
     
 }
+.navbar{
+    transition: 5s linear;
+    left: 100%;
+}

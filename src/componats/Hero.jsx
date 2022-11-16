@@ -5,7 +5,7 @@ function Hero() {
   return (
     <>
     <section className='relative h-screen w-full flex justify-center items-start  flex-wrap gap-5 ' >
-      <div className='h-full w-full backdrop-blur-3xl flex justify-center items-center'>
+      <div className='h-full w-full backdrop-blur-xl flex justify-center items-center'>
 
 <div className=' h-4/5 flex flex-col gap-5 justify-center w-11/12 items-center '>
   <h1 className='text-6xl font-bold text-center -mt-10 '>Web Developer</h1>
