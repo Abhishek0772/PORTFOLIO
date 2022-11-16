@@ -11,6 +11,6 @@
     
 }
 .navbar{
-    transition: 5s linear;
-    left: 100%;
+    /* transition: 0.5s; */
+    left:0%;
 }
