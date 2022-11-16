@@ -28,7 +28,7 @@ function Navbar() {
           </div>
         </div >
         <div id='menu' className={`${click ? 'navbar':'-left-full'} fixed top-0 backdrop-blur-2xl bg-slate-00 bg-opacity-20 z-10 `}>
-          <ul className={` flex flex-col items-center justify-start h-screen w-40 gap-5 z-20  py-10  relative`}>
+          <ul className={` flex flex-col items-center justify-start h-screen w-52 md:w-40 gap-5 z-20  py-10  relative`}>
             <li >
               <img className='rounded-full w-24 h-24 object-cover' src={abhi} alt="" />
             </li>
