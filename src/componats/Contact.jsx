@@ -14,6 +14,7 @@ function Contact() {
           <input type="text" name="" id=""  className='md:w-3/4 w-4/5 rounded-md bg-transparent py-1 border-[1px] border-black'/>
           <input type="password" className='md:w-3/4 w-4/5 rounded-md bg-transparent py-1 border-[1px] border-black' />
           <textarea name="" id="" cols="30" rows="10" className='md:w-3/4 w-4/5 bg-transparent py-1 border-[1px] border-black'></textarea>
+          <button className='border-[1px] border-black py-2 px-5 my-3'> Submit</button>
         </form>
 
       </div>
