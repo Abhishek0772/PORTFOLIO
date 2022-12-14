@@ -34,6 +34,7 @@ module.exports = {
         'pink': 'wave2 11s linear infinite',
         'yellow': 'wave3 11s linear infinite',
       },
+    
     },
   },
   plugins: [],
