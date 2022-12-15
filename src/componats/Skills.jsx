@@ -9,7 +9,7 @@ function Skills() {
       <h2 className='text-center text-5xl font-bold mb-7'>
         Skills
       </h2>
-      <div className='flex justify-center items-start gap-9 bg-slate-200 bg-opacity-20 backdrop-blur-3xl py-5'>
+      <div className='flex justify-center items-start gap-9 bg-slate-200 bg-opacity-20 backdrop-blur-3xl py-5 flex-wrap'>
         <div className='flex flex-col justify-center items-center gap-4'>
           <CgWebsite className='text-white w-40 h-40 rounded-full bg-pink-600' />
           <h2 className='bg-gradient-to-r from-purple-600 to-pink-500 p-1 px-2'>
