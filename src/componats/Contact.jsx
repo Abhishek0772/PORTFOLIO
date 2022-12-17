@@ -6,7 +6,7 @@ function Contact() {
   AOS.init( {duration:'1000'})
   return (
     <>
-    <div id='contact' data-aos='"zoom-in-right' className='w-full h-screen  flex justify-center items-center relative'>
+    <div id='contact' data-aos="flip-right" className='w-full h-screen  flex justify-center items-center relative'>
 
       <div className='md:w-3/5 w-4/5 flex flex-col justify-around items-center backdrop-blur-3xl bg-slate-200 bg-opacity-20 py-10 rounded-md gap-3'>
         <h2 className='font-bold text-2xl'>Contact Me</h2>
