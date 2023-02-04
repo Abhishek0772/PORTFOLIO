@@ -6,6 +6,7 @@ import Navbar from './componats/Navbar'
 import Projects from './componats/Projects'
 import { BrowserRouter , Routes ,Route } from 'react-router-dom'
 import Home from './componats/Home'
+import SeeAll from './componats/SeeAll'
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
   <Route path='/' element={<Home/>}/>
   <Route path='/about' element={<About/>}/>
   <Route path='/projects' element={<Projects/>}/>
-  {/* <Route path='/services' element={<Hero/>}/> */}
+  <Route path='/seeall' element={<SeeAll/>}/>
   {/* <Route path='/contact' element={<Hero/>}/> */}
 </Routes>
 

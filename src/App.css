@@ -14,3 +14,7 @@
     /* transition: 0.5s; */
     left:0%;
 }
+.text-animation{
+    color: linear-gradient(
+        to right,pink rgb(199, 12, 199) 
+    )}

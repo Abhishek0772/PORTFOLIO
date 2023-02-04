@@ -11,16 +11,15 @@ import hero from '../img/hero.png'
 import '../App.css'
 import { Link } from 'react-scroll'
 function Hero() {
-  AOS.init({
-    duration: 1000,})
+
   return (
     <>
-      <section data-aos='fade-up' data-aos-anchor-placement="top-center" className='relative h-screen w-full flex justify-center items-start  flex-wrap gap-5 ' >
-        <div className='h-screen w-full  flex justify-center items-center md:gap-5 flex-wrap-reverse backdrop-blur-3xl bg-slate-100 bg-opacity-10'>
+      <section className='relative h-screen w-full flex justify-center items-start  flex-wrap gap-5 ' >
+        <div className='h-screen w-full  flex justify-center items-center md:gap-5 flex-wrap-reverse backdrop-blur-xl bg-slate-100 bg-opacity-10'>
 
-          <div className='flex flex-col gap-5 justify-center md:items-start items-center m-2 md:w-5/12' data-aos="fade-right">
-            <h1 className='text-5xl md:text-6xl font-bold text-center md:text-start -mt-10 glowing '>Web Developer</h1>
-            <p className='text-md opacity-80 w-4/5 text-center md:text-start'>
+          <div className='flex flex-col gap-5 justify-center md:items-start items-center m-2 md:w-5/12' >
+            <h1 className='text-5xl md:text-6xl font-bold text-center md:text-start -mt-10 glowing image.png'>Web Developer</h1>
+            <p className='text-md opacity-80 w-4/5 text-center md:text-start '>
               I Am frontend developer with high level of skills in web designing and development , producing the quality work
             </p>
             <Link to='about' duration={800} smooth={true}><button className='border-[1px] hover:scale-105 transition delay-400 border-black p-3 rounded-3xl  '>
@@ -33,15 +32,15 @@ function Hero() {
       <a href='https://github.com/Abhishek0772' target={'_blank'}><AiOutlineGithub className='border-[1px] border-black w-14 py-3 px-3 h-14 rounded-full hover:scale-110 transition duration-300' /></a>
       </div>
           </div>
-          <div className='flex justify-center items-center  md:w-5/12 overflow-hidden' data-aos="fade-left">
+          <div className='flex justify-center items-center  md:w-5/12 overflow-hidden'>
             <img src={hero} alt="" className='md:w-4/5' />
-            <div className='absolute bg-gradient-to-r from-purple-600 to-pink-500 text-white -translate-y-20 -translate-x-32 py-2 px-4 backdrop-blur-3xl bg-opacity-50 rounded-md md:-translate-y-28 md:-translate-x-36 flex justify-center items-center gap-1'><VscVmConnect className='border-[1px] rounded-full  w-6 p1 h-6 p-1'/>Web Developer</div>
+            <div className='text-white  absolute bg-gradient-to-r from-purple-600 to-pink-500 -translate-y-20 -translate-x-32 py-2 px-4 backdrop-blur-3xl bg-opacity-50 rounded-md md:-translate-y-28 md:-translate-x-36 flex justify-center items-center gap-1'><VscVmConnect className='border-[1px] rounded-full  w-6 p1 h-6 p-1 '/>Web Developer</div>
 
-            <div className='absolute  bg-gradient-to-r from-purple-600 to-pink-500 text-white translate-y-36 translate-x-28 py-2 px-5 bg-opacity-20 rounded-md md:translate-y-44 md:translate-x-36 text-lg backdrop-blur-3xl flex justify-center items-center gap-1'><BsCodeSlash className='border-[1px] rounded-full w-6  h-6 p-1'/>Programmer</div>
+            <div className='absolute  bg-gradient-to-r from-purple-600 to-pink-500 text-white translate-y-36 translate-x-28 py-2 px-5 bg-opacity-20 rounded-md md:translate-y-44 md:translate-x-36 text-lg backdrop-blur-3xl flex justify-center items-center gap-1'><BsCodeSlash className='border-[1px] rounded-full w-6  h-6 p-1 '/>Programmer</div>
           </div>
         </div>
       </section>
-      <Blur val='items-center' />
+      {/* <Blur val='items-center' /> */}
 
     </>
   )

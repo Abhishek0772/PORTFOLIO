@@ -26,13 +26,13 @@ function Navbar() {
             </Link>
           </div>
           <div className='w-8 flex flex-col items-end justify-end gap-1 z-10 cursor-pointer' onClick={clicked}>
-            <div className={`${click ? 'transition duration-800 w-7 rotate-45 translate-y-[2px]' : 'transition duration-1000 w-9 mb-1'} bg-black h-1 w-7   rounded-sm`}></div>
-            <div className={`${click ? 'transition duration-800 w-7  -rotate-45 transform translate-x-[1px] -translate-y-[5px]' : 'transition duration-1000 w-7 mb-1'} bg-black h-1   rounded-sm`}></div>
-            <div className={`${click ? 'transition duration-800 opacity-0' : 'transition duration-1000 w-4 opacity-100'} bg-black h-1    rounded-sm`}></div>
+            <div style={{transition:"0.2s"}} className={`${click ? ' w-7 rotate-45 translate-y-[2px]' : ' w-9 mb-1'} bg-black h-1 w-7   rounded-sm`}></div>
+            <div className={`${click ? ' w-7  -rotate-45 transform translate-x-[1px] -translate-y-[5px]' : ' w-7 mb-1'} bg-black h-1   rounded-sm`}></div>
+            <div style={{transition:"0.4s"}} className={`${click ? 'opacity-0' : ' w-4 opacity-100'} bg-black h-1    rounded-sm`}></div>
           </div>
         </div >
-        <div id='menu' className={`${click ? 'navbar' : '-left-full'} fixed top-0 backdrop-blur-2xl bg-slate-00 bg-opacity-20 z-10 `}>
-          <ul className={` flex flex-col items-center justify-start h-screen w-52 md:w-40 gap-2 z-20  py-10  relative`}>
+        <div id='menu' style={{transition:"0.7s"}} className={`${click ? 'navbar' : '-left-full'} fixed top-0 backdrop-blur-2xl bg-slate-00 bg-opacity-20 z-10 `}>
+          <ul className={` flex flex-col items-center justify-start h-screen w-52 xl:w-60 md:w-40 gap-2 z-20  py-10  relative`}>
             <li >
               <img className='rounded-full w-24 h-24 object-cover' src={abhi} alt="" />
             </li>
@@ -44,7 +44,7 @@ function Navbar() {
           </ul>
         </div>
       </nav>
-      <Blur val='items-end' />
+      {/* <Blur val='items-end' /> */}
     </>
   )
 }

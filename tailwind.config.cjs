@@ -31,7 +31,7 @@ module.exports = {
       },
       animation: {
         'purple': 'wave 12s linear infinite',
-        'pink': 'wave2 11s linear infinite',
+        'pink': 'wave2 10s linear infinite',
         'yellow': 'wave3 11s linear infinite',
       },
     

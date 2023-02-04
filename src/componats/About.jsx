@@ -2,15 +2,13 @@ import React from 'react'
 import abhi from '../img/abhi.jpg'
 import Blur from './Blur';
 import "aos/dist/aos.css";
-import AOS from 'aos';
+// import AOS from 'aos';
 import {useEffect} from 'react'
 function About() {
-    useEffect(() => {
-        AOS.init({duration:'2000'});
-      }, []);
+
     return (
         <>
-        <div className='relative h-screen flex items-center justify-center' data-aos='fade' id='about'>
+        <div className='relative my-8 h-full flex items-center justify-center' id='about'>
         
         <div className='w-11/12 rounded-xl bg-slate-200 bg-opacity-20 flex justify-center items-center flex-wrap p-2 py-3 backdrop-blur-3xl'>
             <div className=' h-[400px] p-5'>

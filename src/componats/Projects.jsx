@@ -4,7 +4,9 @@ import Cards from './Cards'
 import chatbot from '../img/chatbot.png'
 import movies from '../img/movie.png'
 import myimage from '../img/myweb.png'
-import AOS from 'aos'
+import { useNavigate } from 'react-router-dom'
+import {Link} from 'react-router-dom'
+// import AOS from 'aos'
 
 function Projects() {
   const proj = {
@@ -25,14 +27,12 @@ function Projects() {
     description: 'Portfolio website using react js',
     link:'https://github.com/Abhishek0772/myWebSite'
   }
-  AOS.init({
-    duration: 1000,})
+ const navigate = useNavigate()
   return (
     <>
-    <section className='relative w-full h-full md:h-screen backdrop-blur-3xl' id='projects'>
+    <section className='relative w-full h-full md:h-screen backdrop-blur-3xl flex justify-center items-center flex-col gap-5' id='projects'>
       <h2 className='text-center my-4 font-bold text-3xl'>PROJECTS</h2>
-      <div className='flex flex-wrap justify-center items-center gap-5 md:gap-3'data-aos="fade-up"
-     data-aos-anchor-placement="top-center">
+      <div className='flex flex-wrap justify-center items-center gap-5 md:gap-3'>
 
     
    <Cards title={proj.title} image = {proj.img} des={proj.description} link={proj.link}/> 
@@ -40,7 +40,8 @@ function Projects() {
    <Cards title={Portfolio.title} image = {Portfolio.img} des={Portfolio.description} link={Portfolio.link}/> 
   
       </div>
-    <Blur val={'items-center'}/>
+      <button className='my-3 bg-slate-100  border-[1px] border-black p-2 '><Link to='/seeall'>See all</Link></button>
+      <Blur val={'items-center'}/>
     </section>
     </>
   )
