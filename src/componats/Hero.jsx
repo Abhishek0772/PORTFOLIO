@@ -40,7 +40,7 @@ function Hero() {
           </div>
         </div>
       </section>
-      {/* <Blur val='items-center' /> */}
+      <Blur val='items-center' />
 
     </>
   )

@@ -11,8 +11,8 @@ import {Link} from 'react-router-dom'
 function Projects() {
   const proj = {
     img: chatbot,
-    title: 'Chatbot ',
-    description: 'chatbot based on inquiry system using html css js...',
+    title: 'Real-Time ChatApp ',
+    description: 'this is project is a realtime chatting app...',
     link:'https://github.com/Abhishek0772/Chatbot-bassed-inqury-system-s-usnig-flask'
   }
   const movie = {
