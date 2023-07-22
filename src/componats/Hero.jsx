@@ -17,7 +17,7 @@ function Hero() {
       <section className='relative h-screen w-full flex justify-center items-start  flex-wrap gap-5 ' >
         <div className='h-screen w-full  flex justify-center items-center md:gap-5 flex-wrap-reverse backdrop-blur-xl bg-slate-100 bg-opacity-10'>
 
-          <div className='flex flex-col gap-5 justify-center md:items-start items-center m-2 md:w-5/12' >
+          <div className='flex flex-col gap-5 justify-center md:items-start items-center m-2 m md:w-5/12' >
             <h1 className='text-5xl md:text-6xl font-bold text-center md:text-start -mt-10 glowing image.png'>Web Developer</h1>
             <p className='text-md opacity-80 w-4/5 text-center md:text-start '>
               I Am frontend developer with high level of skills in web designing and development , producing the quality work
@@ -32,7 +32,7 @@ function Hero() {
       <a href='https://github.com/Abhishek0772' target={'_blank'}><AiOutlineGithub className='border-[1px] border-black w-14 py-3 px-3 h-14 rounded-full hover:scale-110 transition duration-300' /></a>
       </div>
           </div>
-          <div className='flex justify-center items-center  md:w-5/12 overflow-hidden'>
+          <div className='flex justify-center items-center  md:w-5/12 overflow-hidden mb-3'>
             <img src={hero} alt="" className='md:w-4/5' />
             <div className='text-white  absolute bg-gradient-to-r from-purple-600 to-pink-500 -translate-y-20 -translate-x-32 py-2 px-4 backdrop-blur-3xl bg-opacity-50 rounded-md md:-translate-y-28 md:-translate-x-36 flex justify-center items-center gap-1'><VscVmConnect className='border-[1px] rounded-full  w-6 p1 h-6 p-1 '/>Web Developer</div>
 
