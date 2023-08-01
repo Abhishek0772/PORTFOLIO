@@ -14,7 +14,7 @@ function Projects() {
     title: 'Weather App',
     description: 'this is a real time weather info app',
     link:'https://github.com/Abhishek0772/whethear-app',
-    preview:'https://github.com/Abhishek0772/whethear-app',
+    preview:'https://weathersite3.netlify.app/',
   }
   const movie = {
     img: movies,
