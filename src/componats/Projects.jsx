@@ -13,7 +13,7 @@ function Projects() {
     img: weather,
     title: 'Weather App',
     description: 'this is a real time weather info app',
-    link:'https://github.com/Abhishek0772/Chatbot-bassed-inqury-system-s-usnig-flask',
+    link:'https://github.com/Abhishek0772/whethear-app',
     preview:'https://github.com/Abhishek0772/whethear-app',
   }
   const movie = {
