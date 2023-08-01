@@ -15,7 +15,7 @@ function Hero() {
   return (
     <>
       <section className='relative h-screen w-full flex justify-center items-start  flex-wrap gap-5 ' >
-        <div className='h-screen w-full  flex justify-center items-center md:gap-5 flex-wrap-reverse backdrop-blur-xl bg-slate-100 bg-opacity-10'>
+        <div className='h-screen w-full  flex justify-center items-center md:gap-5 flex-wrap-reverse backdrop-blur-2xl bg-slate-100 bg-opacity-10'>
 
           <div className='flex flex-col gap-5 justify-center md:items-start items-center m-2 m md:w-5/12' >
             <h1 className='text-5xl md:text-6xl font-bold text-center md:text-start -mt-10 glowing image.png'>Web Developer</h1>
